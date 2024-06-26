@@ -12,7 +12,7 @@ public class Program5a {
         int num = obj.nextInt();
         int fact = 1;
 
-        for (int i = num; i >= 1; i--) {
+        for (int i = num; i > 1; i--) {
             fact *= i;
         }
         System.out.println("factorial of " + num + " is: " + fact);
