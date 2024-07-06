@@ -16,6 +16,9 @@ public class Program11a {
             System.out.print("Please enter the "+ (i+1) + " value:");
             arr2[i] = obj.nextInt();  //initialising the value
         }
+
+        System.out.println(arr1); //[I@3feba861
+
         obj.close();
     }
 }
